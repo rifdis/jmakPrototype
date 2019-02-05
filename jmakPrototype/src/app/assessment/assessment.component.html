@@ -1,0 +1,8 @@
+<div *ngIf="assessments">
+  <h2>Please choose an assessment to get started</h2>
+  <ul>
+    <li *ngFor="let assessment of assessments" (click)="onSelect(assessment)" [class.selected]="assessment===selectedAssessment">
+      <a routerLink="items/{{assessment.Id}}" (click)="takeAssessment()">{{assessment.AssessmentName}}</a>
+    </li>
+  </ul>
+</div>

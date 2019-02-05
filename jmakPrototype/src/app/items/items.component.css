@@ -1,0 +1,79 @@
+@media only screen and (max-width: 600px){
+#background{
+
+    width: 90% !important;
+    height: 90vh !important;
+}
+}
+#background{
+    margin:auto;
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+    height: 80vh;
+    border:1px solid lightgray;
+    padding: 10px 10px 10px 10px;
+    margin-top:20px;
+}
+body{
+    background-image: url("../../assets/background.PNG");
+   background-size: 100%;
+ }
+ #client_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height:150px;
+ }
+ li{
+     list-style: none;
+ }
+ .distractor:first-of-type{
+    border-top: solid 1px #1287c2;
+
+}
+ .distractor{
+     padding-top:10px;
+     padding-bottom:10px;
+     border-bottom: solid 1px #1287c2;
+     text-align: center;
+ 
+ }
+ .distractor:hover,.distractorclicked{
+     background-color: #1287c2;
+     color:white;
+ }
+
+ #headerBox{
+    border-top:1px solid lightgrey;
+    border-bottom:1px solid lightgrey;
+    padding-top:10px;
+    padding-bottom:40px;
+    margin-top:20px !important;
+    text-align: center;
+    height:60px;
+    margin-bottom: 10px !important;
+ }
+ 
+
+ .btn{
+    width:45%;
+    margin-top:30px;
+ }
+ 
+.nextButton, .submitassessment{
+float:left;
+margin-left:30px;
+}
+.prevButton{
+ 
+    float:left;
+}
+#questioncount{
+    text-align: center;
+    margin:0;
+}
+.nextalone{
+    float:right;
+}
